@@ -1,7 +1,7 @@
 const UpdateProfile = () => {
     return (
       <div>
-        UpdateProfile
+        UpdateProfile - future task for hamza
       </div>
     )
   }

@@ -1,7 +1,7 @@
 const Profile = () => {
     return (
       <div>
-        Profile
+        Profile - future task for nidhal
       </div>
     )
   }
