@@ -2,7 +2,7 @@
 
   ![The Home page](/public/assets/images/HomePage.png)
 
-ALX SE Social is a full-stack social media application developed using React JS, Appwrite, Tailwind CSS, and React Query. The app provides users with a platform to connect, share, and interact with others in a dynamic and user-friendly environment.
+ALX SE Social is a full-stack social media application developed using React JS, Appwrite, Tailwind CSS, and React Query. The app provides alx student with a platform to connect, share, and interact with other peers in a dynamic and user-friendly environment.
 
   
 
