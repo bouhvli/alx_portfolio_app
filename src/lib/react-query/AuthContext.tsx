@@ -3,6 +3,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getCurrentUser } from '../appwrite/api';
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const INITIAL_USER = {
   id: "",
   name: "",
@@ -61,6 +62,7 @@ const AuthProvider = ({children}: {children: React.ReactNode}) => {
     ) navigate('/sign-in');
 
     checkAuthUser();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
 
@@ -82,4 +84,5 @@ const AuthProvider = ({children}: {children: React.ReactNode}) => {
 
 export default AuthProvider;
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useUserContext = () => useContext(AuthContext);
